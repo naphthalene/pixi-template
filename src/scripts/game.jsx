@@ -16,7 +16,6 @@ export default class Game extends React.Component {
         });
         const element = document.getElementById('game-container');
         element.parentNode.replaceChild(app.view, element);
-        this.setState = { app };
     }
 
     render() {
