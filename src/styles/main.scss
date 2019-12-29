@@ -2,7 +2,7 @@
 .main-wrapper {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 3fr 8fr 1fr;
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: auto 1fr auto;
   line-height: 23px;
   & > * { grid-column: 2 / -2; }
